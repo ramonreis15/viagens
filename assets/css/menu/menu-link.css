@@ -1,0 +1,23 @@
+.menu__link {
+    color: #ffffff;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-family: 'Tahoma', sans-serif;
+    font-weight: bold;
+    width: 100%;
+}
+
+.menu__link--ativo {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+.menu__link:last-child {
+    margin-right: none;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}

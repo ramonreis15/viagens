@@ -1,0 +1,16 @@
+h3.sobre__titulo {
+    color: #ffffff;
+    font-family: 'Oxygen';
+    font-size: 2.5rem;
+}
+
+@media screen and (min-width: 0) {
+    h3.sobre__titulo {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    h3.sobre__titulo {
+        font-size: 2.8rem;
+    }
+}

@@ -1,0 +1,21 @@
+span.pessoa__nome {
+    color: #705714;
+    font-family: 'Oxygen';
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 0){
+    
+    span.pessoa__nome {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    span.pessoa__nome {
+        font-size: 1.5rem;
+    }
+}

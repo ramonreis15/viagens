@@ -1,0 +1,17 @@
+.sobre {
+    text-align: center;
+    background-color: #000000;
+    border-top: 10px solid #000000;
+    border-bottom: 5px solid #000000;
+}
+
+@media screen and (min-width: 0) {
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sobre {
+        padding: 2.5rem;
+    }
+}

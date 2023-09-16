@@ -1,0 +1,20 @@
+p.quem-somos__descricao {
+    color: #cccccc;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Verdana', sans-serif;
+}
+
+@media screen and (min-width: 0){
+    
+    p.quem-somos__descricao {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    p.quem-somos__descricao {
+        font-size: 1.3rem;
+    }
+}

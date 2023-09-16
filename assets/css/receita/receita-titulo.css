@@ -1,0 +1,19 @@
+h4.receita__titulo {
+    font-size: 1.4rem;
+    color: #ffffff;
+    font-family: 'Verdana', sans-serif;
+}
+
+@media screen and (min-width: 0){
+
+    h4.receita__titulo {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h4.receita__titulo {
+        font-size: 1.4rem;
+    }
+}
+

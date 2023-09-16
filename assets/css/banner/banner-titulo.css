@@ -1,0 +1,25 @@
+h2.banner__titulo {
+    color: #000000;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 5rem;
+}
+
+@media screen and (min-width: 0) {
+    h2.banner__titulo {
+        font-size: 2rem;
+        width: 100%;
+        margin: 0 0;
+        text-shadow: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    h2.banner__titulo {
+        font-size: 3rem;
+    }
+}

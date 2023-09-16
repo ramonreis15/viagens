@@ -1,0 +1,30 @@
+button.receita__botao {
+    background: #081d0b;
+    color: #cccccc;
+    border: 1.5px solid #705714;
+    border-radius: 5px;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+    font-size: 1rem;
+}
+
+.receita__botao:hover {
+    color: #ffffff;
+    border: 1.5px solid #705714;
+    background: #000000;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 0){
+    
+    button.receita__botao {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    button.receita__botao {
+        font-size: 1rem;
+    }
+}

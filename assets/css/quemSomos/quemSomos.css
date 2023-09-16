@@ -1,0 +1,11 @@
+.quem-somos {
+    padding: 5rem;
+    text-align: center;
+    background-color: #081d0b;
+}
+
+@media screen and (max-width: 768px) {
+    .quem-somos {
+        padding: 2rem;
+    }
+}
